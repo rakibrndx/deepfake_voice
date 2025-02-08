@@ -1,0 +1,152 @@
+Data Science Algorithm Cheatsheet 2025
+
+1. Supervised Learning Algorithms
+Used for labeled data where the target variable is known.
+
+Linear Regression: Predicts continuous values. Use case: Predicting house prices.
+
+Logistic Regression: Predicts binary outcomes. Use case: Spam detection.
+
+Decision Trees: Splits data into branches to make predictions. Use case: Customer segmentation.
+
+Random Forest: Ensemble of decision trees. Use case: Fraud detection.
+
+Gradient Boosting (XGBoost, LightGBM, CatBoost): Builds trees sequentially to correct errors. Use case: Winning Kaggle competitions.
+
+Support Vector Machines (SVM): Finds the optimal hyperplane for classification. Use case: Image classification.
+
+k-Nearest Neighbors (k-NN): Predicts based on the closest data points. Use case: Recommendation systems.
+
+2. Unsupervised Learning Algorithms
+Used for unlabeled data to find patterns or groupings.
+
+k-Means Clustering: Groups data into k clusters. Use case: Market segmentation.
+
+Hierarchical Clustering: Builds a tree of clusters. Use case: Phylogenetic trees in biology.
+
+DBSCAN: Density-based clustering. Use case: Anomaly detection.
+
+Principal Component Analysis (PCA): Reduces dimensionality. Use case: Feature extraction.
+
+t-SNE / UMAP: Visualizes high-dimensional data. Use case: Exploratory data analysis.
+
+Apriori Algorithm: Finds frequent itemsets. Use case: Market basket analysis.
+
+3. Deep Learning Algorithms
+Used for complex patterns in large datasets, often with unstructured data.
+
+Convolutional Neural Networks (CNNs): For image data. Use case: Object detection.
+
+Recurrent Neural Networks (RNNs): For sequential data. Use case: Time series forecasting.
+
+Long Short-Term Memory (LSTM): Improved RNN for long sequences. Use case: Text generation.
+
+Transformers: For NLP tasks. Use case: ChatGPT, BERT.
+
+Generative Adversarial Networks (GANs): Generates synthetic data. Use case: Deepfake creation.
+
+Autoencoders: Dimensionality reduction and feature learning. Use case: Anomaly detection.
+
+4. Reinforcement Learning Algorithms
+Used for decision-making in dynamic environments.
+
+Q-Learning: Learns optimal actions via rewards. Use case: Game AI.
+
+Deep Q-Networks (DQN): Combines Q-learning with deep learning. Use case: Atari game playing.
+
+Policy Gradient Methods: Directly optimizes policy. Use case: Robotics.
+
+Proximal Policy Optimization (PPO): Stable and efficient RL. Use case: OpenAI's Dota 2 bot.
+
+5. Natural Language Processing (NLP) Algorithms
+Used for text data analysis and generation.
+
+Bag of Words (BoW): Represents text as word frequencies. Use case: Sentiment analysis.
+
+TF-IDF: Weights words based on importance. Use case: Document classification.
+
+Word2Vec / GloVe: Word embeddings. Use case: Semantic analysis.
+
+BERT / GPT: Pre-trained language models. Use case: Question answering, text generation.
+
+Seq2Seq Models: For sequence-to-sequence tasks. Use case: Machine translation.
+
+6. Time Series Algorithms
+Used for sequential data with temporal dependencies.
+
+ARIMA: Models time series data. Use case: Stock price prediction.
+
+Exponential Smoothing: Smooths time series data. Use case: Demand forecasting.
+
+Prophet: Developed by Facebook for time series. Use case: Event prediction.
+
+LSTM: Deep learning for time series. Use case: Weather forecasting.
+
+7. Dimensionality Reduction Algorithms
+Used to reduce the number of features while preserving information.
+
+PCA: Linear dimensionality reduction.
+
+t-SNE: Non-linear dimensionality reduction for visualization.
+
+UMAP: Faster alternative to t-SNE.
+
+Autoencoders: Neural network-based reduction.
+
+8. Ensemble Learning Algorithms
+Combines multiple models to improve performance.
+
+Bagging: Reduces variance (e.g., Random Forest).
+
+Boosting: Reduces bias (e.g., XGBoost, AdaBoost).
+
+Stacking: Combines models using a meta-learner.
+
+9. Optimization Algorithms
+Used to optimize model parameters.
+
+Gradient Descent: Minimizes loss function.
+
+Stochastic Gradient Descent (SGD): Faster variant of gradient descent.
+
+Adam: Adaptive optimization algorithm.
+
+Genetic Algorithms: Inspired by natural selection. Use case: Hyperparameter tuning.
+
+10. Anomaly Detection Algorithms
+Used to identify outliers or unusual patterns.
+
+Isolation Forest: Detects anomalies in high-dimensional data.
+
+One-Class SVM: For unsupervised anomaly detection.
+
+Autoencoders: Neural network-based anomaly detection.
+
+11. Recommender Systems
+Used to suggest items to users.
+
+Collaborative Filtering: Based on user-item interactions.
+
+Matrix Factorization: Decomposes user-item matrix.
+
+Content-Based Filtering: Based on item features.
+
+12. Feature Selection Algorithms
+Used to select the most important features.
+
+Lasso Regression: Adds L1 regularization for feature selection.
+
+Recursive Feature Elimination (RFE): Iteratively removes features.
+
+Mutual Information: Measures dependency between features and target.
+
+13. Advanced Algorithms (2025 Trends)
+Quantum Machine Learning: Leverages quantum computing for faster computations.
+
+Federated Learning: Trains models across decentralized devices.
+
+Explainable AI (XAI): Improves model interpretability.
+
+Self-Supervised Learning: Reduces reliance on labeled data.
+
+This cheatsheet provides a high-level overview of the most important algorithms in data science as of 2025. For detailed implementation, always refer to documentation and libraries like Scikit-learn, TensorFlow, PyTorch, and XGBoost. Let me know if you'd like a deeper dive into any specific algorithm!
